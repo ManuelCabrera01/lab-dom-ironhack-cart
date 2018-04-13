@@ -1,3 +1,14 @@
+ //declaration area
+const getId = id => document.getElementById(id);
+
+const getClass = classes =>  document.getElementsByClassName(classes);
+
+const getByTN = tagName => document.getElementsByTagName(tagName);
+
+// end of declaration area
+
+
+
 // function deleteItem(e){
 
 // }
