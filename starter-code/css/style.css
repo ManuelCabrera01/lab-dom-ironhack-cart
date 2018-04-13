@@ -1,6 +1,22 @@
-input {
-  border: solid 1px black;
+h1{
+   max-width: 400px;
+ margin: auto;
+text-align: center;
+
 }
+ 
+ input {
+  border: solid 1px black;
+  width: 60%;
+  display: inline;
+  text-align: right;
+}
+label {
+  display: inline;
+  width: 140px;
+  text-align: right;
+  margin-right: 10px;
+}​
 
 .container {
 
@@ -16,6 +32,7 @@ input {
 
 .row {
 
+  margin: 20px;
 }
 
 .col-xs-2 {
@@ -64,6 +81,11 @@ input {
     color: #fff;
     background-color: #5cb85c;
     border-color: #4cae4c;
+}
+.btn-center{
+  float: none;
+  margin: 0 auto;
+
 }
 
 .btn-delete {
